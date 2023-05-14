@@ -1,0 +1,9 @@
+node_modules
+.turbo/
+dist/
+.swc
+deploy_versions/
+.temp/
+.rn_temp/
+.DS_Store
+.swc

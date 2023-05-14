@@ -1,0 +1,30 @@
+{
+  "name": "hetu-miniprogram",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "dotenv -- turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "demo": "turbo run demo"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@tsconfig/recommended": "^1.0.2",
+    "dotenv-cli": "^7.2.1",
+    "prettier": "latest",
+    "rollup": "^2.79.1",
+    "@hetu/rollup-config": "workspace:^",
+    "@hetu/ts-config": "workspace:^",
+    "tslib": "^2.5.0",
+    "turbo": "latest",
+    "typescript": "5.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "packageManager": "pnpm@8.1.0"
+}

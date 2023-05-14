@@ -1,0 +1,12 @@
+{
+  "extends": "@hetu/ts-config/base.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ESNext",
+    "rootDir": "src"
+  }
+}

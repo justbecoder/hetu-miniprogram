@@ -1,0 +1,19 @@
+{
+  "name": "@hetu/rollup-config",
+  "version": "1.0.0",
+  "description": "rollup全局配置文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "rollup.config.mjs",
+    "rollup.config.mini.mjs"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0"
+  }
+}
