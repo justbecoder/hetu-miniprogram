@@ -6,16 +6,16 @@ import './index.css';
 export default function Index() {
   return (
     <View
+      className="w-full"
       onClick={async () => {
         const result = await cloud.callFunction({
           name: 'oneTest',
         });
 
         console.log(1232131, result);
-        console.log('sdfhsdjfhjsdhfjhdsdfssdfsd');
       }}
     >
-      欢迎使用....
+      欢迎使用....tailwindcss
     </View>
   );
 }

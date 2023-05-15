@@ -10,6 +10,8 @@
     "demo": "turbo run demo"
   },
   "devDependencies": {
+    "@hetu/rollup-config": "workspace:^",
+    "@hetu/ts-config": "workspace:^",
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-typescript": "^11.1.0",
@@ -17,8 +19,6 @@
     "dotenv-cli": "^7.2.1",
     "prettier": "latest",
     "rollup": "^2.79.1",
-    "@hetu/rollup-config": "workspace:^",
-    "@hetu/ts-config": "workspace:^",
     "tslib": "^2.5.0",
     "turbo": "latest",
     "typescript": "5.0.3"

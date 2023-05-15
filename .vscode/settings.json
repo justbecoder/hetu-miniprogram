@@ -13,4 +13,8 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "cSpell.words": ["tailwindcss"],
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
 }

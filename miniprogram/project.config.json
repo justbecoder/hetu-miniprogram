@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "client/dist/",
   "cloudfunctionRoot": "cloud/functions/",
-  "projectname": "taro-with-turbo",
+  "projectname": "hetu-miniprogram",
   "description": "",
   "appid": "wx17a1baf2435163e1",
   "setting": {
