@@ -1,21 +1,21 @@
 import { Component, PropsWithChildren } from 'react';
 import Taro, { Config, cloud } from '@tarojs/taro';
 import { View, Text } from '@tarojs/components';
+import { Button } from '@nutui/nutui-react-taro';
 import './index.css';
 
 export default function Index() {
   return (
-    <View
-      className="w-full"
-      onClick={async () => {
-        const result = await cloud.callFunction({
-          name: 'oneTest',
-        });
-
-        console.log(1232131, result);
-      }}
-    >
-      欢迎使用....tailwindcss
+    <View className="w-full min-h-full flex justify-center items-center">
+      <Button
+        type="primary"
+        // className="mt-[200px]"
+        onClick={() => {
+          console.log('this is a test!');
+        }}
+      >
+        Tailwindcss!!
+      </Button>
     </View>
   );
 }
