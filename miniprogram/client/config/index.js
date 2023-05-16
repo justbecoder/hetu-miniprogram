@@ -1,4 +1,5 @@
 const { UnifiedWebpackPluginV5 } = require('weapp-tailwindcss-webpack-plugin');
+const path = require('path');
 
 const config = {
   projectName: 'hetu-miniprogram',
@@ -9,6 +10,9 @@ const config = {
     750: 1,
     828: 1.81 / 2,
     375: 2 / 1,
+  },
+  alias: {
+    '@': path.resolve(__dirname, '../src'),
   },
   sourceRoot: 'src',
   outputRoot: 'dist',

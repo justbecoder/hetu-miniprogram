@@ -1,12 +1,15 @@
+import { useGlobalIconFont } from './components/iconfont/helper.js';
+
 export default {
-  pages: [
-    'pages/index/index'
-  ],
+  pages: ['pages/index/index'],
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
     navigationBarTitleText: 'WeChat',
-    navigationBarTextStyle: 'black'
+    navigationBarTextStyle: 'black',
   },
-  cloud: true
-}
+  usingComponents: {
+    ...useGlobalIconFont(),
+  },
+  cloud: true,
+};
